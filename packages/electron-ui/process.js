@@ -57,7 +57,7 @@ const doAction = (account, configs, event) => {
 
             let pageType;
             let forceQuit = false;
-            let maxTimeSolveCaptcha = 5;
+            let maxTimeSolveCaptcha = 50;
             let maxTimeFillOTP = 5;
 
             let answerTime = 0;
